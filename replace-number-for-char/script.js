@@ -14,9 +14,9 @@ function replaceNumberForString(str){
 
 	var listChar = ['A', 'E', 'I', 'O', 'U', 'Q', 'K', 'R', 'T', 'P'];
 
-	for(var x = 0; x <= str.length; x++){
-		for(var y = 0; y <= listChar.length; y++){
-			str = str.replace(y,listChar[y]);
+	for(var x = 0; x <= str.length; x++){ //19
+		for(var y = 0; y <= listChar.length; y++){ //10
+			str = str.replace(y,listChar[y]); 
 		}
 	}
 	return str;
